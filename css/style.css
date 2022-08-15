@@ -1,19 +1,47 @@
-h2 span{
-    color: green;
+html{
+    box-sizing: border-box;
 }
 
-#navegacion{
-    background-color: red;
+*,*::before, *:after{
+    box-sizing: inherit;
 }
 
-.navegacion{
-    background-color: #e1e1e1;
+/* Globales */
+a{
+    text-decoration: none;
+    color: #000;
 }
 
-.navegacion a{
-    text-transform: uppercase;
+.contenedor{
+    max-width: 1200px;
+    margin: 0 auto 0 auto;
+}
+
+/* Header y Navegacion */
+.nombre-sitio{
+    margin-top: #e1e1e1;
+    margin-bottom: solid;
+    text-align: center;
 }
 
 .nombre-sitio span{
     color: #037bc0;
+}
+
+.contenedor-navegacion{
+    border-top: 1px solid #e1e1e1;
+}
+
+.nav-principal{
+    padding: 20px 0;
+}
+
+/** box model **/
+
+.hero{
+    background-image: url(../img/principal.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+
 }
