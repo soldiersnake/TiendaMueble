@@ -14,7 +14,7 @@ a{
 
 .contenedor{
     max-width: 1200px;
-    margin: 0 auto 0 auto;
+    margin: 0 auto;
 }
 
 /* Header y Navegacion */
@@ -34,6 +34,9 @@ a{
 
 .nav-principal{
     padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    
 }
 
 /** box model **/
@@ -44,4 +47,12 @@ a{
     background-size: cover;
     height: 550px;
 
+}
+
+/**categorias**/
+
+.listado-categorias{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
 }
