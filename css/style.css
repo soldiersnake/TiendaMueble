@@ -114,5 +114,14 @@ img{
     background-position: left center;
     background-repeat: no-repeat;
      background-size: 100%, 120rem;
+}
 
+.sobre-nosotros-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 8rem;
+}
+.texto-nosotros{
+    grid-column: 2/3;
+    color: white;
 }
