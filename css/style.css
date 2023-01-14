@@ -43,6 +43,11 @@ img{
     display: block;
 }
 
+/* UTILIDADES */
+.text-center{
+    text-align: center;
+}
+
 /* Header y Navegacion */
 .nombre-sitio{
     margin-top: 5rem;
@@ -124,4 +129,14 @@ img{
 .texto-nosotros{
     grid-column: 2/3;
     color: white;
+}
+
+/* LISTADO DE PRODUCTOS */
+
+.contenido-principal{
+    padding-top: 5rem;
+}
+
+.producto{
+    background-color: #037bc0;
 }
