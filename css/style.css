@@ -43,6 +43,19 @@ img{
     display: block;
 }
 
+.btn{
+    background-color: #8cbc00;
+    display: block;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 900;
+    padding: 1rem;
+    transition: background-color .3s ease-out;
+}
+.btn:hover{
+    background-color: #769c02;
+}
+
 /* UTILIDADES */
 .text-center{
     text-align: center;
@@ -139,4 +152,23 @@ img{
 
 .producto{
     background-color: #037bc0;
+}
+
+.texto-producto{
+    text-align: center;
+    color: white;
+    padding: 2rem;
+}
+
+.texto-producto h3{
+    margin: 0;
+}
+
+.texto-producto p{
+    margin: 0 0 .5rem 0;
+}
+
+.texto-producto .precio{
+    font-size: 2.8rem;
+    font-weight: 900;
 }
