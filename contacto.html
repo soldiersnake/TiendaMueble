@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Tienda Muebles</title>
+  <title>Tienda Muebles - Contacto</title>
   <link rel="stylesheet" href="./css/normalize.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -35,6 +35,74 @@
 
   <main class="contenido-principal contenedor">
     <h2 class="text-center">Contacto</h2>
+
+    <form class="formulario">
+      <fieldset>
+        <legend>Tus Datos</legend>
+        <div class="campo">
+          <label for="nombre">Nombre: </label>
+          <input id="nombre" type="text" placeholder="Coloca tu nombre" required>
+        </div>
+        <div class="campo">
+          <label for="asunto">Asunto: </label>
+          <input id="asunto" type="text" placeholder="Tu Asunto">
+        </div>
+        <div class="campo">
+          <label for="email">Email: </label>
+          <input id="email" type="email" placeholder="Tu Email">
+        </div>
+        <div class="campo">
+          <label for="tel">Telefono: </label>
+          <input id="tel" type="tel" placeholder="Tu Telefono">
+        </div>
+        <div class="campo">
+          <label for="tel">Telefono: </label>
+          <input id="tel" type="tel" placeholder="Tu Telefono">
+        </div>
+        <div class="campo">
+          <label for="mensaje">Mensaje: </label>
+          <textarea name="mensaje" id="mensaje" rows="5" placeholder="Deja tu mensaje"></textarea>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Pais</legend>
+        <div class="campo">
+          <label for="pais">Pais</label>
+          <select name="pais" id="pais">
+            <option value="">--Seleccione--</option>
+            <option selected value="Argentina">Argentina</option>
+            <option value="Mexico">Mexico</option>
+            <option value="Peru ">Peru</option>
+            <option value="Colombia">Colombia</option>
+            <option value="Chile">Chile</option>
+          </select>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Informacion Extra</legend>
+        <div class="campo">
+          <label for="cliente">Cliente</label>
+          <input type="radio" id="cliente" name="tipo">
+        </div>
+        <div class="campo">
+          <label for="proveedor">Proveedor</label>
+          <input type="radio" id="proveedor" name="tipo">
+        </div>
+        <div class="campo">
+          <label for="categoria">Categoria de Interes</label>
+          <input list="categorias" name="categorias">
+          <datalist id="categorias">
+            <option value="Cocina">
+            <option value="Exterior">
+            <option value="Recamaras">
+            <option value="Oficinas">
+            <option value="television">
+            <option value="Living">
+          </datalist>
+        </div>
+      </fieldset>
+      <input class="btn" type="submit" value="Enviar Formulario">
+    </form>
 
   </main>
 
